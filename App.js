@@ -4,8 +4,9 @@ import Contador from './src/components/Contador'
 
 export default function App() {
   return (
-    <View>
-      <Contador />
+    <View style={{marginTop:10}}>
+      <Contador limite={10} minimo={0}/>
+      
     </View>
   )
 }
